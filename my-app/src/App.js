@@ -53,9 +53,8 @@ if (exsit) {
 }
   return (
     <div className="App"><ProductContext.Provider
-     value={{product,filterProduct,AllProduct,cart,setCart,addToCart,setClose,view,detail,close,searchBtn,search,setSearch}}>
-     <Router><Nav/>
-     <Header/>
+     value={{product,filterProduct,AllProduct,cart,setCart,addToCart,setClose,view,detail,close,searchBtn,search,setSearch}}>    
+     <Router><Nav/><Header/>
       <Switch>
         <Route exact path="/"><Home/></Route>
         <Route  path="/product"><Product /></Route>

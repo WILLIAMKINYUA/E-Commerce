@@ -8,7 +8,7 @@ const BestSale = () => {
         <div className="class">
             <div className="mask">
             <div className="display">
-                <img src="./img/LAPTOP1.PNG" alt="Not Found" className="imag"/>
+                <img src="./img/LAPTOP1.PNGPNG/img/LAPTOP1." alt="Not Found" className="imag"/>
                <p className="para">34 AVAILABLE</p>
             </div>
             <div className="display">
